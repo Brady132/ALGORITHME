@@ -1,0 +1,15 @@
+Enoncé
+Ecrire un algorithme qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est positif ou négatif (on laisse de côté le cas où le nombre vaut zéro).
+
+Solution
+Algorithme SigneNombre
+Variable n: entier;
+Début
+  Ecrire ("Entrez un nombre:");
+  Lire (n);
+  Si n>0 alors
+    Ecrire ("Ce nombre est positif");
+  Sinon 
+    Ecrire ("Ce nombre est négatif");
+  FinSi
+Fin

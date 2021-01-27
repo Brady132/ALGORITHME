@@ -1,0 +1,15 @@
+Enoncé
+Ecrire un algorithme qui demande un nombre à l’utilisateur, et l’informe ensuite si ce nombre est positif ou négatif (on laisse de côté le cas où le nombre vaut zéro).
+
+Solution
+Algorithme SigneNombres
+Variables a, b: entiers;
+Début
+  Ecrire ("Entrez deux nombres:");
+  Lire (a, b);
+  Si (a>0 et b>0) ou (a<0 et b<0) alors
+    Ecrire ("Leur produit est positif");
+  Sinon
+    Ecrire ("Leur produit est négatif");
+  FinSi
+Fin

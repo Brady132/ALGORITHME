@@ -1,0 +1,31 @@
+Enoncé
+Ecrire un algorithme qui permet de déterminer qu'un triangle est rectangle.
+
+Solution
+Soit un triangle ABC dans le repère (Ox, Oy)
+Algorithme triangle
+variables xA, yA, xB, yB, xC, yC, a, b, c: entiers;
+Début
+    Afficher ("Entrez les coordonnées du point A");
+        Entrer (xA, yA);
+    Afficher ("Entrez les coordonnées du point B");
+        Entrer (xB, yB);
+    Afficher ("Entrez les coordonnées du point C");
+        Entrer (xC, yC);
+    c=(xA-xB)²+(yA-yB)²;
+    b=(xA-xC)²+(yA-yC)²;
+    a=(xB-xC)²+(yB-yC)²;
+    Si c=a+b alors
+        Afficher ("ABC est rectangle en C");
+    Sinon 
+        Si b=a+c alors
+            Afficher ("ABC est rectangle en B");
+        Sinon
+        Si a=b+c alors
+            Afficher ("ABC est rectangle en A");
+            Sinon 
+                Afficher ("ABC n'est paas rectangle");
+            FinSi
+        FinSi
+    FinSi
+Fin

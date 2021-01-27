@@ -1,0 +1,15 @@
+Enoncé
+Ecrire un algorithme qui demande trois noms à l’utilisateur et l’informe ensuite s’ils sont rangés ou non dans l’ordre alphabétique.
+
+Solution
+Algorithme Nom
+Variables a, b, c: caractères;
+Début
+  Ecrire ("Entrez successivement trois noms:");
+  Lire (a, b, c);
+  Si a<b et b<c alors 
+    Ecrire ("Ces noms sont rangés alphabétiquement");
+  Sinon
+    Ecrire ("Ces noms ne sont pas rangés alphabétiquement");
+  FinSi
+Fin

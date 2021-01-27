@@ -1,0 +1,14 @@
+Enoncé
+Ecrire un algorithme qui permet de faire une omelette
+
+Solution
+Algortihme PreparerOmelette
+Variables 0, 1, nbre_d'élem: enetiers;
+Début
+    Pour oeuf de 1 à nbre_d'élem
+    Faire casser(oeuf, bol);
+    FinPour
+    Mélanger (bol);
+    Verser (bol, poêle);
+    Cuire (poêle;)
+Fin

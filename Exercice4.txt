@@ -1,0 +1,24 @@
+Enoncé
+Ecrire un algorithme qui demande l’âge d’un enfant à l’utilisateur. Ensuite, il l’informe de sa catégorie :
+"Poussin" de 6 à 7 ans
+"Pupille" de 8 à 9 ans
+"Minime" de 10 à 11 ans
+"Cadet" après 12 ans
+Peut-on concevoir plusieurs algorithmes équivalents menant à ce résultat ?
+
+Solution
+Algorithme AgeEnfant
+Variable age: entier;
+Début
+  Ecrire ("Entrez l'age de l'enfant:");
+  Lire (age);
+  Si age =[6..7] alors
+    Ecrire ("Catégorie Poussin");
+  Sinon Si age=[8..9] alors
+    Ecrire ("Catégorie Pupille");
+  Sinon Si age=[10..11] alors
+    Ecrire ("Catégorie Minime");
+  Sinon Si age>=12 alors
+    Ecrire ("Catégorie Cadet");
+  FinSi
+Fin
